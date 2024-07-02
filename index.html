@@ -1,45 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-</head>
-<body>
-<div class="Header-container">
-    <div class="logo"><img src="https://engmates.com/images/logo.png" alt="Engmates Logo"></div>
-    <div class="heading"><h1>ENGLISH SPEAKING COURSE</h1></div>
-</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engmates</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="right-section">
+        <div class="logo"><img src="./assets/Engmates.png" alt="" /></div>
+        <div class="image"><img src="./assets/col6image1.jpg" alt="" /></div>
+        <div class="phone">
+          <h3>Talk to our experts</h3>
+          <p>8010-263-263</p>
+        </div>
+      </header>
+      <section class="left-section">
+        <div class="heading">
+          <h1>English speaking Course</h1>
+        </div>
+        <div class="form-container">
+          <h2>GET FREE CONSULTATION</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Enter Phone Number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Message"
+                required
+              />
+            </div>
+            <button type="submit" class="btn">SUBMIT</button>
+          </form>
+        </div>
+        <div class="features">
+          <ul>
+              <li>Interactive Learning Methods</li>
+              <li>Experienced Trainers</li>
+              <li>Personalized Feedback</li>
+              <li>Advanced Learning Modules</li>
+          </ul>
+      </div>
+      <div class="seprator"></div>
+      <div class="last-section">
+        <h1>Join The best english </h1>
+        <h1 class="second">Speaking Institute</h1>
+      </div>
+      <div class="seprator"></div>
+      <div class="last-se">
+        <h2>holistic development</h2>
+        <h3>Better English <span></span> Better You</h3>
+      </div>
+      
+      </section>
+    </div>
+    <footer  class="about">
+      <button onclick="AboutEngmates()">About Engmates</button>
+      <p id="Showabout" style="display: none;">Engmates <sup>tm</sup> provides a high quality english course at extremely affordable and resonable fees compared to other institutions. Unlike others, we offer comprehensive content exceeds expectations without strainig your budget. Choose Engmates <sup>tm</sup> for great return on alow investment</p>
+      
+    </footer>
 
-<img src="./assets/7587973.jpg" alt="Image" class="image">
-<div class="main-container">
-    <div class="phone">
-        <h3>Talk to our Experts 1234567890</h3>
-    </div>
-    <div class="form-container">
-      <h2>GET FREE CONSULTATION</h2>
-      <form>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Enter Your Name" required>
-        </div>
-        <div class="form-group">
-          <input type="tel" class="form-control" placeholder="Enter Phone Number" required>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn">SUBMIT</button>
-      </form>
-    </div>
-   
-</div>
-<div class="features">
-    <h3>Key Features:</h3>
-    <ul>
-      <li>Interactive Learning Methods</li>
-      <li>Experienced Trainers</li>
-      <li>Personalized Feedback</li>
-      <li>Advanced Learning Modules</li>
-    </ul>
-  </div>
-</body>
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
